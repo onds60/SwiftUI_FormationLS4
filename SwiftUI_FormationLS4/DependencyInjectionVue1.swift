@@ -16,7 +16,7 @@ struct DependencyInjectionVue1: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Button("Télécharger les données Typi ") {
+            Button("Télécharger les données Typi  ") {
                 Task{
                     await vm.getTypiPosts()
                 }
